@@ -1,0 +1,18 @@
+
+Known issues:
+
+Failed to override .equals() method. When comparing Strings, always returns false when trying to modify passwords.
+I tried changing the methods to ignoreCase() and toLowerCase(). The first one failed and I obtained a
+NullPointerException with the second one.
+
+Still unable to implement try-catch when managing exceptions. I'll probably revisit this issue later, after
+further studying exceptions.
+
+
+Problemáticas conocidas:
+
+No pude lograr que el método .equals() funcione. Aunque los passwords son iguales, siempre retorna falso al comparar
+las Strings. Se intentó con ignoreCase(), que da el mismo resultado; y con toLowerCase() que genera un NullPointerException.
+
+Aún no poseo el conocimiento suficiente para implementar las excepciones. Volveré a ver este tema luego de estudiar
+más profundamente este tema.
